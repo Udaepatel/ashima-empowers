@@ -1,0 +1,1832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashima Empowers - Astrology & Life Guidance</title>
+    <meta name="description"
+        content="Gain Clarity & Confidence through the symbolism of astrology. Professional astrology readings, NLP sessions, and spiritual guidance by certified astrologer Ashima.">
+    <meta name="keywords"
+        content="astrology, life guidance, career reading, relationship reading, health reading, NLP, spiritual guidance, Ashima Empowers">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ashima Empowers - Astrology & Life Guidance">
+    <meta property="og:description"
+        content="Professional astrology readings and spiritual guidance to help you align with your stars.">
+    <meta property="og:type" content="website">
+    <link rel="shortcut icon"
+        href="images/icon-astrology-stars-related-to-astrology-symbol-color-spot-style-design-editable-vector.jpg"
+        type="image/x-icon">
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="blog-styles.css">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <div class="nav-logo" onclick="scrollToSection('hero')">
+                    <span class="nav-logo-text"><img src="images/logo-black-300x88.webp"
+                            style="max-width: 200px; width: 100%;" alt=""></span>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="nav-menu-desktop">
+                    <a href="#hero" onclick="scrollToSection('hero')" class="nav-link">Home</a>
+                    <a href="#about" onclick="scrollToSection('about')" class="nav-link">About</a>
+                    <a href="#services" onclick="scrollToSection('services')" class="nav-link">Services</a>
+                    <a href="#pricing" onclick="scrollToSection('pricing')" class="nav-link">Pricing</a>
+                    <a href="#contact" onclick="scrollToSection('contact')" class="nav-link">Contact</a>
+                    <a href="#NLP" onclick="scrollToSection('NLP')" class="nav-link">NLP</a>
+                    <a href="blog.html" class="nav-link">Blog</a>
+                    <button class="nav-cta-button" onclick="scrollToSection('contact')">Book Reading</button>
+                    <!-- Social Media Links (rightmost) -->
+
+                    <!-- Social Media Links (rightmost) -->
+                    <div class="nav-social-links">
+                        <a href="https://www.facebook.com/share/164LS27khE/" target="_blank" aria-label="Facebook"
+                            class="nav-social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/ashima_empowers" target="_blank" aria-label="Instagram"
+                            class="nav-social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ashima-gautam-8362bb373/" target="_blank"
+                            aria-label="LinkedIn" class="nav-social-link"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.tiktok.com/search?q=ashima_empowers" target="_blank" aria-label="tiktok"
+                            class="nav-social-link"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button" onclick="toggleMobileMenu()">
+                    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg class="close-icon hidden" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="mobile-menu-content">
+                <a href="#hero" onclick="closeMobileMenu(); scrollToSection('hero')" class="mobile-nav-link">Home</a>
+                <a href="#about" onclick="closeMobileMenu(); scrollToSection('about')" class="mobile-nav-link">About</a>
+                <a href="#services" onclick="closeMobileMenu(); scrollToSection('services')"
+                    class="mobile-nav-link">Services</a>
+                <a href="#pricing" onclick="closeMobileMenu(); scrollToSection('pricing')"
+                    class="mobile-nav-link">Pricing</a>
+                <a href="#contact" onclick="closeMobileMenu(); scrollToSection('contact')"
+                    class="mobile-nav-link">Contact</a>
+                <a href="#NLP" onclick="closeMobileMenu(); scrollToSection('NLP')" class="mobile-nav-link">NLP</a>
+                <a href="blog.html" class="mobile-nav-link">Blog</a>
+                <!-- Social Media Links (rightmost) -->
+                <div class="nav-social-links">
+                    <a href="https://www.facebook.com/share/164LS27khE/" target="_blank" aria-label="Facebook"
+                        class="nav-social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/ashima_empowers" target="_blank" aria-label="Instagram"
+                        class="nav-social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ashima-gautam-8362bb373/" target="_blank" aria-label="LinkedIn"
+                        class="nav-social-link"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.tiktok.com/search?q=ashima_empowers" target="_blank" aria-label="tiktok"
+                        class="nav-social-link"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <button class="mobile-cta-button" onclick="closeMobileMenu(); scrollToSection('contact')">Book
+                    Reading</button>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="https://cdn.abacus.ai/images/1ef142bd-7ba7-4aca-99a2-b0c41c11d124.png"
+                alt="Mystical cosmic background" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Floating Stars -->
+        <div class="floating-stars">
+            <div class="star star-1">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon
+                        points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                </svg>
+            </div>
+            <div class="sparkle sparkle-1">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.719c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+            </div>
+            <div class="star star-2">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon
+                        points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-title-gradient">Ashima Empowers</span>
+            </h1>
+
+            <p class="hero-subtitle">One Soul. Three Sciences. Infinite Clarity.</p>
+
+            <p class="hero-description">
+                Helping seekers across the globe discover clarity, healing & direction through ancient Indian sciences.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="scrollToSection('services')">
+                    Let's Get Started ✨
+                </button>
+                <button class="btn-secondary" onclick="scrollToSection('about')">
+                    Learn More
+                </button>
+            </div>
+
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <svg class="hero-stat-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <polygon
+                            points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                    </svg>
+                    <span>100+ Reviews</span>
+                </div>
+                <div class="hero-stat">
+                    <svg class="hero-stat-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.719c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <span>Consults Worldwide </span>
+                </div>
+                <div class="hero-stat">
+                    <svg class="hero-stat-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <polygon
+                            points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                    </svg>
+                    <span>5+ Years Experience</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meet <span class="text-accent">Ashima Gautam</span></h2>
+                <p class="section-subtitle">Canada's First Astrologer combining Nadi Astrology, Numerology & Palmistry
+                </p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image-container">
+                    <div class="about-image">
+                        <img src="images/ashima1.webp" alt="Ashima - Professional Astrologer">
+                        <div class="about-image-overlay"></div>
+                    </div>
+
+                    <div class="floating-element floating-element-1">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.719c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                    </div>
+
+                    <div class="floating-element floating-element-2">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="about-text">
+                    <h3 class="about-heading">Empowering Lives Through Ancient Wisdom</h3>
+                    <p class="about-description">
+                        With over 18 years of dedicated practice, Ashima has guided many individuals
+                        on their journey of self-discovery and transformation. Her unique approach combines
+                        traditional Vedic astrology with modern psychological insights and NLP techniques.
+                    </p>
+                    <p class="about-description">
+                        Born with an innate connection to cosmic energies, Ashima discovered her gift at an
+                        early age. Her compassionate approach and remarkable accuracy have made her a trusted
+                        advisor to clients across 20+ countries.
+                    </p>
+
+                    <div class="certifications">
+                        <h4 class="certifications-title">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="8" r="7" />
+                                <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88" />
+                            </svg>
+                            Professional Experience
+                        </h4>
+                        <ul class="certifications-list">
+                            <li>5+ years of dedicated practice in astrology</li>
+                            <li>Guided many individuals worldwide</li>
+                            <li>Specialized in Vedic astrology and NLP techniques</li>
+                            <li>Deep understanding of cosmic energies and personal transformation</li>
+                        </ul>
+                    </div>
+
+                    <div class="mission">
+                        <h4 class="mission-title">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                            </svg>
+                            My Mission
+                        </h4>
+                        <p class="mission-text">
+                            "To help you remember who you truly are and step into your full potential.
+                            Through the wisdom of the stars, we'll uncover your unique gifts and
+                            navigate life's challenges with clarity and confidence."
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="3" />
+                            <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1" />
+                        </svg>
+                    </div>
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Years of Experience</div>
+                </div>
+                <!-- <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <div class="stat-number">M</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div> -->
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                        </svg>
+                    </div>
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Satisfaction Rate</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                    </div>
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Countries Served</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Transformative <span class="text-accent">Services</span></h2>
+                <p class="section-subtitle">Personalized guidance to help you align with your highest potential</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon service-icon-1">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                            <line x1="8" y1="21" x2="16" y2="21" />
+                            <line x1="12" y1="17" x2="12" y2="21" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Career Reading</h3>
+                    <p class="service-description">Navigate Your Path with Clarity and Confidence</p>
+                    <p class="service-details">Discover your professional calling, understand your strengths, and align
+                        your career with your cosmic blueprint for lasting success and fulfillment.</p>
+                    <button class="service-cta" onclick="scrollToSection('contact')">
+                        Book Now
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12,5 19,12 12,19" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon service-icon-2">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Health Reading</h3>
+                    <p class="service-description">Gain Clarity, Balance, and Guidance for Your Mind-Body Wellness</p>
+                    <p class="service-details">Understand the astrological influences on your physical and mental
+                        well-being, and learn how to optimize your health through cosmic awareness.</p>
+                    <button class="service-cta" onclick="scrollToSection('contact')">
+                        Book Now
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12,5 19,12 12,19" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon service-icon-3">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Relationship Reading</h3>
+                    <p class="service-description">Real Answers for Real Love Questions</p>
+                    <p class="service-details">Explore compatibility, understand relationship patterns, and discover the
+                        cosmic dynamics that influence your romantic and personal connections.</p>
+                    <button class="service-cta" onclick="scrollToSection('contact')">
+                        Book Now
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12,5 19,12 12,19" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon service-icon-4">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.719c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Kids' Psychology Reading</h3>
+                    <p class="service-description">Real Insight to Raise Resilient, Happy Children</p>
+                    <p class="service-details">Understand your child's unique personality, talents, and challenges
+                        through their birth chart to support their growth and development.</p>
+                    <button class="service-cta" onclick="scrollToSection('contact')">
+                        Book Now
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12,5 19,12 12,19" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon service-icon-5">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="3" />
+                            <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">NLP Session</h3>
+                    <p class="service-description">Change Your Life — Rewire Your Mind, Unlock Your Potential</p>
+                    <p class="service-details">Transform limiting beliefs and behavioral patterns through powerful
+                        Neuro-Linguistic Programming techniques combined with astrological insights.</p>
+                    <button class="service-cta" onclick="scrollToSection('contact')">
+                        Book Now
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12,5 19,12 12,19" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="services-cta">
+                <div class="services-cta-content">
+                    <h3 class="services-cta-title">Ready to Transform Your Life?</h3>
+                    <p class="services-cta-text">Choose the service that resonates with you and begin your journey to
+                        clarity</p>
+                    <button class="btn-primary" onclick="scrollToSection('pricing')">View Pricing & Book</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="nlp" id="NLP" style="padding: 10px;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">NLP Session</h2>
+                <p class="section-subtitle">Rewire Your Mind, Unlock Your Potential</p>
+            </div>
+
+            <div class="nlp-content">
+                <!-- Intro Section -->
+                <div class="nlp-intro">
+                    <div class="nlp-intro-text">
+                        <p>Are you feeling stuck in patterns that no longer serve you? Do you want to break free from
+                            limiting beliefs, emotional triggers, or self-sabotage—once and for all?</p>
+                        <p>Our <strong>NLP Session</strong> is a powerful one-on-one experience designed to shift your
+                            mindset at the subconscious level. Neuro-Linguistic Programming (NLP) rewires the way your
+                            brain responds to experiences, memories, and beliefs—so you can think, feel, and act from a
+                            more empowered place.</p>
+                        <p><strong>This is not talk therapy. This is change therapy.</strong></p>
+                    </div>
+
+                </div>
+                <br>
+                <!-- Highlights Section -->
+                <div class="nlp-highlights">
+                    <h3 class="nlp-subtitle">🌟 Why NLP is Transformative</h3>
+                    <p>Your brain stores emotional memories and core beliefs like software running in the background. If
+                        that software is filled with fear, self-doubt, or disempowering stories—you will continue to
+                        operate from that place.</p>
+                    <p>NLP helps you change those internal programs. Using neuroscience, language patterns, and
+                        subconscious techniques, we guide you to replace limiting mental loops with beliefs that support
+                        your growth, purpose, and happiness.</p>
+                </div>
+                <br>
+                <!-- Benefits Section -->
+                <div class="nlp-benefits">
+                    <h3 class="nlp-subtitle">💡 What Can NLP Help With?</h3>
+                    <div class="nlp-benefits-grid">
+                        <ul>
+                            <li>Low self-esteem or self-doubt</li>
+                            <li>Public speaking or performance anxiety</li>
+                            <li>Fear of failure or rejection</li>
+                            <li>Relationship patterns or emotional triggers</li>
+                            <li>Lack of motivation or procrastination</li>
+                            <li>Health, weight, or money mindset blocks</li>
+                        </ul>
+                        <ul>
+                            <li>PTSD, phobias, or stuck trauma responses</li>
+                            <li>Business, creative, or career breakthroughs</li>
+                            <li>Feel safe in your own body and voice</li>
+                            <li>Awaken your confidence, clarity, and truth</li>
+                            <li>Heal emotional wounds that keep resurfacing</li>
+                            <li>Manifest aligned relationships, success, and abundance</li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                <!-- Session Details Section -->
+                <div class="nlp-session-details">
+                    <h3 class="nlp-subtitle">🔍 What’s Covered in the NLP Session</h3>
+                    <div class="nlp-steps-grid">
+                        <div class="nlp-step">
+                            <div class="nlp-cta">
+                                <h3>Ready to Transform Your Life?</h3>
+                                <p>Book your NLP session today and take the first step toward clarity, confidence, and
+                                    empowerment.</p>
+                                <br>
+                                <button class="btn-primary" onclick="scrollToSection('contact')">Book Your NLP
+                                    Session</button>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+    </section>
+
+
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked <span class="text-accent">Questions</span></h2>
+                <p class="section-subtitle">Find answers to common questions about astrology, NLP, and working with
+                    Ashima</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">What can I get in a reading?<span class="faq-toggle"><i
+                                class="fas fa-chevron-down"></i></span></button>
+                    <div class="faq-answer">You will get an in-depth blueprint reading by combining not only Nadi
+                        Astrology but also Numerology & Palmistry.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What details do I need to give?<span class="faq-toggle"><i
+                                class="fas fa-chevron-down"></i></span></button>
+                    <div class="faq-answer">I would need your Date of birth, Time of birth, Place of birth & clear
+                        pictures of both palms & fingerprints in HD. (The pictures should be clear for accuracy)</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What if I don’t have my Time of birth & Date of birth?<span
+                            class="faq-toggle"><i class="fas fa-chevron-down"></i></span></button>
+                    <div class="faq-answer">No Problem. I can rectify your Time of birth or Date of birth with a trail
+                        of past events happened so far.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Will I get any remedies?<span class="faq-toggle"><i
+                                class="fas fa-chevron-down"></i></span></button>
+                    <div class="faq-answer">Yes. I certainly give practical remedies after a deep thorough analysis
+                        apart from this I have solutions by inculcating NLP (Neuro Linguistic Programming) &
+                        Hypnotherapy.<br>NLP is the programming of your Sub-Conscious Mind.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Can I get a session for free?<span class="faq-toggle"><i
+                                class="fas fa-chevron-down"></i></span></button>
+                    <div class="faq-answer">Energy exchange is must for the advice & remedies to be implemented.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our <span class="text-accent">Clients Say</span></h2>
+                <p class="section-subtitle">Real stories of transformation and guidance from people who found their path
+                    through Ashima's wisdom</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1-.008-1-1.031V20c0 1 0 1 1 1z" />
+                            <path
+                                d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z" />
+                        </svg>
+                    </div>
+
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                    </div>
+
+                    <p class="testimonial-text">
+                        "Ashima's reading was incredibly accurate and insightful. She helped me understand my career
+                        path and gave me the confidence to make a major life change. Her warm energy and deep knowledge
+                        made me feel completely at ease."
+                    </p>
+
+                    <div class="testimonial-service">Career Reading</div>
+
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="images/profile pic.png" alt="Client Avatar">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Sarah Johnson</h4>
+                            <p class="testimonial-location">Toronto, Canada</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1-.008-1-1.031V20c0 1 0 1 1 1z" />
+                            <path
+                                d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z" />
+                        </svg>
+                    </div>
+
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                    </div>
+
+                    <p class="testimonial-text">
+                        Ashima, your words truly touched the deepest corners of my soul. I find myself at a loss for
+                        words to fully express the impact you've had on me. The way you so gracefully articulated my
+                        past, present, and future was nothing short of extraordinary. It felt as though you saw into my
+                        very essence. Your gentle yet profound guidance on the challenges I may face ahead has lit a
+                        spark of courage within me—a newfound strength to move forward without fear. Please continue to
+                        bless me with your wisdom whenever you can. I am deeply grateful—thank you from the bottom of my
+                        heart.
+
+                    </p>
+
+                    <div class="testimonial-service">Life Guidance</div>
+
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="images/profile pic.png" alt="Client Avatar">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Happy Client</h4>
+                            <p class="testimonial-location">Vancouver, Canada</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1-.008-1-1.031V20c0 1 0 1 1 1z" />
+                            <path
+                                d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z" />
+                        </svg>
+                    </div>
+
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                    </div>
+
+                    <p class="testimonial-text">
+                        I recently had the pleasure of having astro consulting from Ashima, and I am truly impressed
+                        with her in depth knowledge of astrology and genuine approach. She provided me with thoughtful
+                        insight that is connected with my life and challenges and helping me find clarity and a renewed
+                        sense of purpose. Her reading were not only accurate but also delivered with compassion and
+                        positivity. Recommend to anyone who is looking for guidance based on birth chart.
+
+
+                    </p>
+
+                    <div class="testimonial-service">Complete Life Reading</div>
+
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="images/profile pic.png" alt="Client Avatar">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Happy Client</h4>
+                            <p class="testimonial-location">Calgary, Canada</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1-.008-1-1.031V20c0 1 0 1 1 1z" />
+                            <path
+                                d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z" />
+                        </svg>
+                    </div>
+
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                    </div>
+
+                    <p class="testimonial-text">
+                        I sincerely thank Ashima Ma’am for her incredibly accurate and insightful palm reading. Her deep
+                        understanding and precise observations truly amazed me and resonated deeply with my current life
+                        path. Every detail she shared felt meaningful and helped me gain clarity and confidence about
+                        the future. I’m especially grateful for her kind guidance and the positive energy she brings
+                        into her sessions. Her words have been both comforting and motivating. Thank you, Ashima Ma’am,
+                        for your wisdom and for taking the time to offer such thoughtful and personalized advice.
+
+
+                    </p>
+
+                    <div class="testimonial-service">Palm Reading</div>
+
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="images/profile pic.png" alt="Client Avatar">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Happy Client</h4>
+                            <p class="testimonial-location">Ottawa, Canada</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1-.008-1-1.031V20c0 1 0 1 1 1z" />
+                            <path
+                                d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z" />
+                        </svg>
+                    </div>
+
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                    </div>
+
+                    <p class="testimonial-text">
+                        Thank you so much Ashima ji for this grt session. What a pleasure of having a comprehensive
+                        reading,,,your calculations are perfect,your predictions are grt,,past readings are 100%
+                        correct. You have a depth of insight and accuracy of reading. Great thing about you is that you
+                        don't just read kundli,you calculate with palmistry and Numerology. Feeling empowered with new
+                        prospectives....AND I'M SHARUNG YOUR CINTACT DETAILS WITH SOME IF MY GOOD TRUSTED FRIENDS THANKS
+                        A LOT 🙏
+
+
+                    </p>
+
+                    <div class="testimonial-service">NLP Session</div>
+
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="images/profile pic.png" alt="Client Avatar">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Happy Client</h4>
+                            <p class="testimonial-location">India</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1-.008-1-1.031V20c0 1 0 1 1 1z" />
+                            <path
+                                d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z" />
+                        </svg>
+                    </div>
+
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                    </div>
+
+                    <p class="testimonial-text">
+                        I recently had the pleasure of receiving a comprehensive reading from Ashima Gautam, covering
+                        numerology, astrology, and palmistry. I was blown away by the depth of insight and accuracy of
+                        the reading! Ashima has a gift for weaving together these different modalities to provide a rich
+                        and nuanced understanding of myself and my life path. I left feeling seen, heard, and empowered
+                        with new perspectives. Highly recommend!
+
+
+                    </p>
+
+                    <div class="testimonial-service">Comprehensive Reading</div>
+
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="images/profile pic.png" alt="Client Avatar">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Happy Client</h4>
+                            <p class="testimonial-location">USA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials-cta">
+                <p class="testimonials-cta-text">Ready to start your own transformation journey?</p>
+                <button class="btn-primary" onclick="scrollToSection('contact')">Book Your Reading Today ✨</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Investment in Your <span class="text-accent">Transformation</span></h2>
+                <p class="section-subtitle">Choose the perfect reading for your journey of self-discovery</p>
+            </div>
+
+            <!-- Astrology Readings -->
+            <div class="pricing-section">
+                <div class="pricing-section-header">
+                    <h3 class="pricing-section-title">Astrology Readings</h3>
+                    <p class="pricing-section-subtitle">Discover your cosmic blueprint and life path</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-icon pricing-icon-1">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="8" r="7" />
+                                <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88" />
+                            </svg>
+                        </div>
+
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">In-depth Career/Finance Reading</h3>
+                            <div class="pricing-price">
+                                <span class="price-current">$200.00</span>
+                                <span class="price-original">$499</span>
+                            </div>
+                            <p class="pricing-duration">✅ One detailed session for career clarity</p>
+                            <p class="pricing-description">This powerful consultation covers all major events of your
+                                career covering your true professional strengths, favorable career domains, and periods
+                                of success or struggle.</p>
+                        </div>
+
+                        <ul class="pricing-features">
+                            <li>Golden Years of Success</li>
+                            <li>Government Job vs Private Job vs Business</li>
+                            <li>Foreign Settlement/Opportunities</li>
+                            <li>Job/Exam/Interview Success</li>
+                            <li>Which Business you should choose ?</li>
+                        </ul>
+
+                        <button class="pricing-button" onclick="scrollToSection('contact')">Book Now</button>
+                    </div>
+
+                    <div class="pricing-card pricing-card-popular">
+                        <div class="popular-badge">Most Popular</div>
+
+                        <div class="pricing-icon pricing-icon-2">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polygon
+                                    points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                            </svg>
+                        </div>
+
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">In-depth Relationship Reading</h3>
+                            <div class="pricing-price">
+                                <span class="price-current">$200.00</span>
+                                <span class="price-original">$249</span>
+                            </div>
+                            <p class="pricing-duration">✅ One detailed session for relationship clarity</p>
+                            <p class="pricing-description">This powerful consultation covers all major events of your
+                                relationship — Past relationship patterns which you are unable to break, your ongoing
+                                relationship analysis to assist you to manage properly & your future predictions with
+                                match-making.</p>
+                        </div>
+
+                        <ul class="pricing-features">
+                            <li>Divorce / Breakup</li>
+                            <li>Match-Making</li>
+                            <li>Current Relationship Analysis</li>
+                            <li>Conflict resolution guidance</li>
+                            <li>When will you meet your Soulmate</li>
+                        </ul>
+
+                        <button class="pricing-button pricing-button-popular" onclick="scrollToSection('contact')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="pricing-card">
+                        <div class="pricing-icon pricing-icon-3">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.719c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                        </div>
+
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Complete Life Reading</h3>
+                            <div class="pricing-price">
+                                <span class="price-current">$200.00</span>
+                                <span class="price-original">$499</span>
+                            </div>
+                            <p class="pricing-duration">✅ One detailed session for Complete Life Reading</p>
+                            <p class="pricing-description">Transform limiting beliefs and behavioral patterns through
+                                powerful Neuro-Linguistic Programming techniques combined with astrological insights.
+                            </p>
+                        </div>
+
+                        <ul class="pricing-features">
+                            <li>Career & finances</li>
+                            <li>Love & relationships</li>
+                            <li>Health & wellness</li>
+                            <li>Family & children</li>
+                            <li>Spiritual growth</li>
+                            <li>Annual predictions</li>
+                            <li>Personalized recommendations</li>
+                        </ul>
+
+                        <button class="pricing-button" onclick="scrollToSection('contact')">Book Now</button>
+                    </div>
+
+                    <div class="pricing-card">
+                        <div class="service-icon service-icon-2"
+                            style="display: flex; align-items: center; justify-content: center;">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <line x1="12" y1="8" x2="12" y2="16" />
+                                <line x1="8" y1="12" x2="16" y2="12" />
+                            </svg>
+                        </div>
+
+
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">In-depth Health Reading</h3>
+                            <div class="pricing-price">
+                                <span class="price-current">$200.00</span>
+                                <span class="price-original">$499</span>
+                            </div>
+                            <p class="pricing-duration">✅ One detailed session for health clarity</p>
+                            <p class="pricing-description">This powerful consultation covers all major hidden patterns
+                                behind recurring health issues, sensitive organs, and future periods of caution</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>How to balance Anxiety</li>
+                            <li>Overcome Stress & Depression</li>
+                            <li>Chronic Illness</li>
+                            <li>Conception/Hormonal Imbalances</li>
+                            <li>Upcoming Periods of Caution</li>
+                            <li>Health Timeline Forecast</li>
+                        </ul>
+                        <button class="pricing-button" onclick="scrollToSection('contact')">Book Now</button>
+                    </div>
+
+                    <div class="pricing-card">
+                        <div class="pricing-icon pricing-icon-2"
+                            style="display: flex; align-items: center; justify-content: center;">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" /> <!-- Head -->
+                                <path d="M8 15s1.5 2 4 2 4-2 4-2" /> <!-- Smile -->
+                                <path d="M9 9h.01" /> <!-- Left eye -->
+                                <path d="M15 9h.01" /> <!-- Right eye -->
+                                <path d="M12 2c-1.5 2-1.5 4 0 6" /> <!-- Hair curl -->
+                            </svg>
+                        </div>
+
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">In-depth Kids Psychology Reading</h3>
+                            <div class="pricing-price">
+                                <span class="price-current">$200.00</span>
+                                <span class="price-original">$499</span>
+
+                            </div>
+                            <p class="pricing-duration">✅ One detailed session for Child's development</p>
+                            <p class="pricing-description">Every child is born with a unique nature. This reading helps
+                                parents understand their child’s emotional needs, learning style, hidden talents, and
+                                behavioral patterns with in-depth analysis
+                            </p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Hidden Talents & Strengths</li>
+                            <li>Parent-Child Compatibility, </li>
+                            <li>Learning Behavioral Patterns</li>
+                            <li>Dealing with Sensitive Child</li>
+                            <li>Suitable Educational Field for the Child</li>
+                        </ul>
+                        <button class="pricing-button" onclick="scrollToSection('contact')">Book Now</button>
+                    </div>
+
+                    <div class="pricing-card">
+                        <div class="pricing-icon pricing-icon-3"
+                            style="display: flex; align-items: center; justify-content: center;">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <!-- Speech bubble -->
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                                <!-- NLP nodes -->
+                                <circle cx="9" cy="10" r="1" />
+                                <circle cx="15" cy="10" r="1" />
+                                <circle cx="12" cy="13" r="1" />
+                                <line x1="9" y1="10" x2="12" y2="13" />
+                                <line x1="15" y1="10" x2="12" y2="13" />
+                            </svg>
+                        </div>
+
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">NLP Session</h3>
+                            <div class="pricing-price">
+                                <span class="price-current">$250.00</span>
+                                <span class="price-original">$499</span>
+
+                            </div>
+                            <p class="pricing-duration">✅ Reprogram Your Sub-Conscious Mind</p>
+                            <p class="pricing-description">Our minds hold memories, beliefs, and voices from the past
+                                that quietly shape how we feel, react, and live. In this reading, we use NLP techniques
+                                along with intuitive guidance to gently explore your emotional wiring, mental habits,
+                                and deep fears.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Erase Self-Doubt & Mental Fog</li>
+                            <li>Rewire Limiting Beliefs at the Source</li>
+                            <li>Heal Deep Emotional Imprints</li>
+                            <li>Reprogram Your Sub-Conscious Mind</li>
+                            <li>Break Free from Repeating Cycles</li>
+                        </ul>
+                        <button class="pricing-button" onclick="scrollToSection('contact')">Book Now</button>
+                    </div>
+
+                </div>
+                <br>
+                <div class="pricing-card">
+                    <div style="display: flex; align-items: flex-start; justify-content: center; gap: 1rem;">
+                        <div class="pricing-icon pricing-icon-3"
+                            style="display: flex; align-items: center; justify-content: center; width: 150px; margin-top: 30px;">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <!-- Heart with healing rays -->
+                                <path
+                                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                                <!-- Healing rays/sparkles -->
+                                <circle cx="8" cy="8" r="1" />
+                                <circle cx="16" cy="8" r="1" />
+                                <circle cx="12" cy="4" r="1" />
+                                <circle cx="6" cy="12" r="1" />
+                                <circle cx="18" cy="12" r="1" />
+                            </svg>
+                        </div>
+
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">41 Days Healing</h3>
+                            <div class="pricing-price">
+                                <span class="price-current">$2,000.00</span>
+                                <span class="price-original">$4,999.00</span>
+                            </div>
+                            <p class="pricing-duration">✅ Complete Transformation Journey</p>
+                            <p class="pricing-description">A comprehensive 41-day healing program designed to transform
+                                your life from the inside out. This intensive journey combines daily guidance,
+                                personalized healing techniques, and continuous support to help you release deep
+                                emotional wounds, break free from limiting patterns, and step into your highest
+                                potential.</p>
+                        </div>
+                    </div>
+                    <button class="pricing-button" onclick="scrollToSection('contact')">Book Now</button>
+                </div>
+            </div>
+
+            <!-- NLP Sessions
+            <div class="pricing-section">
+                <div class="pricing-section-header">
+                    <h3 class="pricing-section-title">NLP Transformation</h3>
+                    <p class="pricing-section-subtitle">Rewire your mind and unlock your potential</p>
+                </div>
+
+                <div class="nlp-pricing">
+                    <div class="pricing-card nlp-card">
+                        <div class="pricing-header">
+                            <h4 class="pricing-title">Single NLP Session</h4>
+                            <div class="pricing-price">
+                                <span class="price-current">₹4,999</span>
+                            </div>
+                            <p class="pricing-duration">90 minutes</p>
+                            <p class="pricing-description">Transform One Limiting Belief</p>
+                        </div>
+
+                        <ul class="pricing-features">
+                            <li>Belief pattern analysis</li>
+                            <li>Personalized NLP techniques</li>
+                            <li>Breakthrough session</li>
+                            <li>Action plan creation</li>
+                            <li>7-day follow-up support</li>
+                        </ul>
+
+                        <button class="pricing-button" onclick="scrollToSection('contact')">Book Now</button>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Ashima's Work Image -->
+            <div class="ashima-work">
+                <div class="ashima-work-content">
+                    <div class="ashima-work-text">
+                        <h3 class="ashima-work-title">See Ashima in Action</h3>
+                        <p class="ashima-work-description">
+                            Watch how Ashima conducts her readings with care, precision, and deep intuitive insight.
+                            Every session is a journey of discovery and transformation.
+                        </p>
+                        <ul class="ashima-work-features">
+                            <li>Personal and confidential environment</li>
+                            <li>Detailed chart analysis</li>
+                            <li>Actionable guidance and insights</li>
+                        </ul>
+                    </div>
+                    <div class="ashima-work-image">
+                        <img src="images/ashima2.webp" alt="Ashima conducting a reading session">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Special Offer -->
+            <div class="special-offer">
+                <div class="special-offer-content">
+                    <h3 class="special-offer-title">Special Offer for First-Time Clients</h3>
+                    <p class="special-offer-text">Get 20% off your first reading when you book within the next 7 days
+                    </p>
+                    <div class="special-offer-features">
+                        <div class="special-offer-feature">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20,6 9,17 4,12" />
+                            </svg>
+                            <span>100% Satisfaction Guarantee</span>
+                        </div>
+                        <div class="special-offer-feature">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20,6 9,17 4,12" />
+                            </svg>
+                            <span>Confidential & Secure</span>
+                        </div>
+                        <div class="special-offer-feature">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20,6 9,17 4,12" />
+                            </svg>
+                            <span>Digital Recording Provided</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Begin Your <span class="text-accent">Transformation Journey</span></h2>
+
+                <p class="section-subtitle">
+                    Ready to align with your stars? Book your personalized reading and take the first step
+                    towards clarity, confidence, and cosmic alignment.
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="contact-form-header">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                            <line x1="16" y1="2" x2="16" y2="6" />
+                            <line x1="8" y1="2" x2="8" y2="6" />
+                            <line x1="3" y1="10" x2="21" y2="10" />
+                        </svg>
+                        <h3>Book Your Reading</h3>
+                    </div>
+
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Preferred Service *</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select a service</option>
+                                    <option value="career-reading">Career Reading</option>
+                                    <option value="health-reading">Health Reading</option>
+                                    <option value="relationship-reading">Relationship Reading</option>
+                                    <option value="kids-psychology-reading">Kids' Psychology Reading</option>
+                                    <option value="nlp-session">Single NLP Session</option>
+                                    <option value="complete-life-reading">Complete Life Reading</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="timePreference">Preferred Time Slot</label>
+                            <select id="timePreference" name="timePreference">
+                                <option value="">Select preferred time</option>
+                                <option value="morning">Morning (9 AM - 12 PM)</option>
+                                <option value="afternoon">Afternoon (12 PM - 4 PM)</option>
+                                <option value="evening">Evening (4 PM - 8 PM)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row birth-info">
+                            <div class="form-group">
+                                <label for="birthDate">Birth Date *</label>
+                                <input type="date" id="birthDate" name="birthDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="birthTime">Birth Time</label>
+                                <input type="time" id="birthTime" name="birthTime">
+                            </div>
+                            <div class="form-group">
+                                <label for="birthPlace">Birth Place *</label>
+                                <input type="text" id="birthPlace" name="birthPlace" placeholder="City, Country"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">What would you like guidance on?</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="Share your questions or areas where you're seeking clarity..."></textarea>
+                        </div>
+
+                        <button type="submit" class="form-submit">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13" />
+                                <polygon points="22,2 15,22 11,13 2,9 22,2" />
+                            </svg>
+                            <span>Let's Get Started ✨</span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <!-- Contact Details -->
+                    <div class="contact-info-card">
+                        <h3>Get in Touch</h3>
+                        <div class="contact-details">
+                            <div class="contact-detail">
+                                <div class="contact-detail-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                        <polyline points="22,6 12,13 2,6" />
+                                    </svg>
+                                </div>
+                                <div class="contact-detail-content">
+                                    <div class="contact-detail-label">Email</div>
+                                    <a href="mailto:Ashima@ashimaempowers.com">Ashima@ashimaempowers.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail">
+                                <div class="contact-detail-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                    </svg>
+                                </div>
+                                <div class="contact-detail-content">
+                                    <div class="contact-detail-label">Phone</div>
+                                    <a href="tel:+16722721743">+1 (672) 272-1743</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail">
+                                <div class="contact-detail-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                </div>
+                                <div class="contact-detail-content">
+                                    <div class="contact-detail-label">Location</div>
+                                    <div>201-5550 152 st, Surrey, BC - V3S 5J9</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Session Details -->
+                    <div class="session-details">
+                        <h3>What to Expect</h3>
+                        <div class="session-detail">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="3" />
+                                <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1" />
+                            </svg>
+                            <div>
+                                <div class="session-detail-title">Session Duration</div>
+                                <div class="session-detail-text">30-90 minutes depending on package</div>
+                            </div>
+                        </div>
+
+                        <div class="session-detail">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polygon
+                                    points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                            </svg>
+                            <div>
+                                <div class="session-detail-title">Preparation Process</div>
+                                <div class="session-detail-text">Sacred meditation and cosmic alignment before each
+                                    session</div>
+                            </div>
+                        </div>
+
+                        <div class="session-detail">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13" />
+                                <polygon points="22,2 15,22 11,13 2,9 22,2" />
+                            </svg>
+                            <div>
+                                <div class="session-detail-title">Session Recording</div>
+                                <div class="session-detail-text">Full recording + detailed summary provided within 24
+                                    hours</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Visit <span class="text-accent">Our Location</span></h2>
+                <p class="section-subtitle">Located in the beautiful Surrey, BC - Experience in-person or virtual
+                    readings</p>
+            </div>
+
+            <div class="map-content">
+                <!-- Map Container -->
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.5482210762263!2d-122.80544152318268!3d49.10325287136167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d9a0b69010b5%3A0x4e073ef24a8472c8!2s201-5550%20152%20St%2C%20Surrey%2C%20BC%20V3S%205J9%2C%20Canada!5e0!3m2!1sen!2sus!4v1692741234567!5m2!1sen!2sus"
+                        width="100%" height="100%" style="border: 0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" title="201-5550 152 St, Surrey, BC V3S 5J9">
+                    </iframe>
+
+                </div>
+
+                <!-- Location Info -->
+                <div class="location-info">
+                    <!-- Address & Hours
+                    <div class="location-details">
+                        <div class="location-details-header">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <h3>Location & Hours</h3>
+                        </div>
+
+                        <div class="location-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <div>
+                                <div class="location-item-title">Address</div>
+                                <div class="location-item-text">Surrey, BC, Canada</div>
+                                <div class="location-item-note">Exact address provided upon booking confirmation</div>
+                            </div>
+                        </div>
+
+                        <div class="location-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"/>
+                            </svg>
+                            <div>
+                                <div class="location-item-title">Operating Hours</div>
+                                <div class="hours-list">
+                                    <div class="hours-item">
+                                        <span>Monday - Friday</span>
+                                        <span>9:00 AM - 8:00 PM</span>
+                                    </div>
+                                    <div class="hours-item">
+                                        <span>Saturday</span>
+                                        <span>10:00 AM - 6:00 PM</span>
+                                    </div>
+                                    <div class="hours-item">
+                                        <span>Sunday</span>
+                                        <span>12:00 PM - 5:00 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+
+                    <!-- Important Note -->
+                    <div class="birth-time-note">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                        </svg>
+                        <div>
+                            <div class="birth-time-note-title">Birth Time Important!</div>
+                            <div class="birth-time-note-text">
+                                While birth time is helpful for precise readings, don't worry if you don't know it
+                                exactly.
+                                Ashima can still provide valuable insights with your birth date and location.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Session Options -->
+                    <div class="session-options">
+                        <h3>Session Options</h3>
+
+                        <div class="session-options-grid">
+                            <div class="session-option">
+                                <div class="session-option-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                </div>
+                                <div class="session-option-title">In-Person</div>
+                                <div class="session-option-text">Face-to-face readings in Surrey</div>
+                            </div>
+
+                            <div class="session-option">
+                                <div class="session-option-icon session-option-icon-2">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                    </svg>
+                                </div>
+                                <div class="session-option-title">Virtual</div>
+                                <div class="session-option-text">Online sessions worldwide</div>
+                            </div>
+                        </div>
+
+                        <button class="btn-primary" onclick="scrollToSection('contact')">Book Your Session</button>
+                    </div>
+
+                    <!-- Quick Contact -->
+                    <div class="quick-contact">
+                        <h4>Quick Contact</h4>
+                        <div class="quick-contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                            <a href="tel:+16722721743">+1 (672) 272-1743</a>
+                        </div>
+                        <div class="quick-contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                            <a href="mailto:Ashima@ashimaempowers.com">Ashima@ashimaempowers.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview Section -->
+    <section id="blog-preview" class="blog-preview-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest <span class="text-accent">Insights</span></h2>
+                <p class="section-subtitle">Explore our articles on astrology, NLP, and spiritual growth</p>
+            </div>
+            <div id="homepage-blog-grid" class="blog-grid"></div>
+            <div class="blog-view-all">
+                <a href="blog.html">
+                    View All Articles
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12,5 19,12 12,19"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Brand Section -->
+                <div class="footer-brand">
+                    <div class="footer-logo">
+
+                        <h3><img src="images/logo-black-300x88.webp"
+                                style="max-width: 200px; width: 100%; filter: brightness(0) invert(1);" alt=""></h3>
+                    </div>
+                    <p class="footer-description">
+                        Helping you align with your stars and remember who you truly are through
+                        the ancient wisdom of astrology and modern transformation techniques.
+                    </p>
+
+                    <!-- <div class="footer-stats">
+                        <div class="footer-stat">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2"/>
+                            </svg>
+                            <span>5+ years of sacred guidance</span>
+                        </div>
+                        <div class="footer-stat">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            </svg>
+                            <span>5,000+ transformed lives</span>
+                        </div>
+                        <div class="footer-stat">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.719c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <span>NCGR-PAA IV & ISAR-CAP Certified</span>
+                        </div>
+                    </div> -->
+
+                    <!-- Social Links -->
+                    <div class="footer-social">
+                        <h5>Follow the Journey</h5>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/share/164LS27khE/" target="_blank" aria-label="Facebook"
+                                class="nav-social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/ashima_empowers" target="_blank" aria-label="Instagram"
+                                class="nav-social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/ashima-gautam-8362bb373/" target="_blank"
+                                aria-label="LinkedIn" class="nav-social-link"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.tiktok.com/search?q=ashima_empowers" target="_blank"
+                                aria-label="tiktok" class="nav-social-link"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services" onclick="scrollToSection('services')">Services</a></li>
+                        <li><a href="#about" onclick="scrollToSection('about')">About Ashima</a></li>
+                        <li><a href="#pricing" onclick="scrollToSection('pricing')">Pricing</a></li>
+                        <li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <div class="footer-contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                        <a href="mailto:Ashima@ashimaempowers.com">Ashima@ashimaempowers.com</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                        <a href="tel:+16722721743">+1 (672) 272-1743</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <div>
+                            201-5550 152 st,<br>
+                            Surrey, BC - V3S 5J9<br>
+                            Canada
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="footer-copyright">
+                        <p>&copy; 2025 Ashima Empowers. All rights reserved.</p>
+                        <p class="footer-tagline">Sacred guidance through cosmic wisdom • Professional astrology & life
+                            transformation</p>
+                    </div>
+                    <!-- WhatsApp CTA Button -->
+                    <a href="https://wa.me/16722721743" class="whatsapp-cta" target="_blank" rel="noopener"
+                        title="Chat on WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                    <button class="back-to-top" onclick="scrollToSection('hero')" title="Back to top">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="19" x2="12" y2="5"></line>
+                            <polyline points="5 12 12 5 19 12"></polyline>
+                        </svg>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Stars Background -->
+        <div class="footer-stars">
+            <div class="footer-star footer-star-1">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon
+                        points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                </svg>
+            </div>
+            <div class="footer-star footer-star-2">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.719c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+            </div>
+            <div class="footer-star footer-star-3">
+                <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon
+                        points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2" />
+                </svg>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="blog.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            loadHomepageBlogPreview();
+        });
+    </script>
+</body>
+
+</html>

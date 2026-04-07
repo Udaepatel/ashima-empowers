@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Ashima Empowers | Astrology & Life Guidance</title>
+    <meta name="description"
+        content="Read insightful articles on astrology, NLP, numerology, and spiritual guidance by Ashima Empowers.">
+    <meta name="keywords"
+        content="astrology blog, NLP articles, numerology insights, spiritual guidance, Ashima Empowers blog">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Blog - Ashima Empowers">
+    <meta property="og:description" content="Insightful articles on astrology, NLP, and spiritual guidance.">
+    <meta property="og:type" content="website">
+    <link rel="shortcut icon"
+        href="images/icon-astrology-stars-related-to-astrology-symbol-color-spot-style-design-editable-vector.jpg"
+        type="image/x-icon">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="blog-styles.css">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar scrolled">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <span class="nav-logo-text"><img src="images/logo-black-300x88.webp"
+                                style="max-width: 200px; width: 100%;" alt="Ashima Empowers"></span>
+                    </a>
+                </div>
+
+                <div class="nav-menu-desktop">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="index.html#about" class="nav-link">About</a>
+                    <a href="index.html#services" class="nav-link">Services</a>
+                    <a href="index.html#pricing" class="nav-link">Pricing</a>
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                    <a href="blog.html" class="nav-link active">Blog</a>
+                    <button class="nav-cta-button" onclick="window.location.href='index.html#contact'">Book
+                        Reading</button>
+                    <div class="nav-social-links">
+                        <a href="https://www.facebook.com/share/164LS27khE/" target="_blank" aria-label="Facebook"
+                            class="nav-social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/ashima_empowers" target="_blank" aria-label="Instagram"
+                            class="nav-social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ashima-gautam-8362bb373/" target="_blank"
+                            aria-label="LinkedIn" class="nav-social-link"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.tiktok.com/search?q=ashima_empowers" target="_blank" aria-label="tiktok"
+                            class="nav-social-link"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <button class="mobile-menu-button" onclick="toggleMobileMenu()">
+                    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg class="close-icon hidden" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="mobile-menu-content">
+                <a href="index.html" class="mobile-nav-link">Home</a>
+                <a href="index.html#about" class="mobile-nav-link">About</a>
+                <a href="index.html#services" class="mobile-nav-link">Services</a>
+                <a href="index.html#pricing" class="mobile-nav-link">Pricing</a>
+                <a href="index.html#contact" class="mobile-nav-link">Contact</a>
+                <a href="blog.html" class="mobile-nav-link active">Blog</a>
+                <div class="nav-social-links">
+                    <a href="https://www.facebook.com/share/164LS27khE/" target="_blank" aria-label="Facebook"
+                        class="nav-social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/ashima_empowers" target="_blank" aria-label="Instagram"
+                        class="nav-social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ashima-gautam-8362bb373/" target="_blank" aria-label="LinkedIn"
+                        class="nav-social-link"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.tiktok.com/search?q=ashima_empowers" target="_blank" aria-label="tiktok"
+                        class="nav-social-link"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <button class="mobile-cta-button" onclick="window.location.href='index.html#contact'">Book
+                    Reading</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Hero -->
+    <section class="blog-hero">
+        <div class="blog-hero-bg">
+            <div class="blog-hero-overlay"></div>
+        </div>
+        <div class="container">
+            <h1 class="blog-hero-title">
+                <span class="hero-title-gradient">Our Blog</span>
+            </h1>
+            <p class="blog-hero-subtitle">Insights on astrology, NLP, and spiritual growth to guide your journey</p>
+        </div>
+    </section>
+
+    <!-- Blog Listing -->
+    <section class="blog-listing">
+        <div class="container">
+            <div id="blog-loading" class="blog-loading">
+                <div class="blog-spinner"></div>
+                <p>Loading articles...</p>
+            </div>
+            <div id="blog-grid" class="blog-grid"></div>
+            <div id="blog-empty" class="blog-empty" style="display: none;">
+                <p>No articles available at the moment. Check back soon!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <h3><img src="images/logo-black-300x88.webp"
+                                style="max-width: 200px; width: 100%; filter: brightness(0) invert(1);" alt=""></h3>
+                    </div>
+                    <p class="footer-description">
+                        Helping you align with your stars and remember who you truly are through
+                        the ancient wisdom of astrology and modern transformation techniques.
+                    </p>
+                    <div class="footer-social">
+                        <h5>Follow the Journey</h5>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/share/164LS27khE/" target="_blank" aria-label="Facebook"
+                                class="nav-social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/ashima_empowers" target="_blank" aria-label="Instagram"
+                                class="nav-social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/ashima-gautam-8362bb373/" target="_blank"
+                                aria-label="LinkedIn" class="nav-social-link"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.tiktok.com/search?q=ashima_empowers" target="_blank"
+                                aria-label="tiktok" class="nav-social-link"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#about">About Ashima</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <div class="footer-contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                        <a href="mailto:Ashima@ashimaempowers.com">Ashima@ashimaempowers.com</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                        <a href="tel:+16722721743">+1 (672) 272-1743</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <div>
+                            201-5550 152 st,<br>
+                            Surrey, BC - V3S 5J9<br>
+                            Canada
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="footer-copyright">
+                        <p>&copy; 2025 Ashima Empowers. All rights reserved.</p>
+                        <p class="footer-tagline">Sacred guidance through cosmic wisdom &bull; Professional astrology &
+                            life transformation</p>
+                    </div>
+                    <a href="https://wa.me/16722721743" class="whatsapp-cta" target="_blank" rel="noopener"
+                        title="Chat on WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="blog.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            loadBlogListing();
+        });
+    </script>
+</body>
+
+</html>
